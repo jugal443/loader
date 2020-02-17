@@ -14,8 +14,8 @@
     border-top: 18px solid #1992e2;
     width: 120px;
     height: 120px;
-    -webkit-animation: spin 2s linear infinite; /* webkit animation is a short hand property allow to use diff property at same place*/ 
-    animation: spin 2s linear infinite;
+    /*-webkit-animation: spin 2s linear infinite; /* webkit animation is a short hand property allow to use diff property at same place*/ 
+    animation: spin 2s ;
     }
 
     @keyframes spin
