@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+    
+.loader
+    {
+    position :absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px  -75px;
+    border: 18px solid #dddada;
+    border-radius: 50%;
+    border-top: 18px solid #1992e2;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* webkit animation is a short hand property allow to use diff property at same place*/ 
+    animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin
+    {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+.button1
+    {
+        background-color: rgb(165, 53, 180);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        float: left;
+       
+    }
+
+#page-header
+    {
+        padding: 10px;
+        background: #ffdddd;
+    }
